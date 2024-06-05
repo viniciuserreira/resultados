@@ -82,7 +82,26 @@ body{
 .resumo > div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1.6rem;
+
 }
+
+    .resumo > div {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .resumo > div strong {
+        color: var(--dark-navy);
+    }
+
+    .resumo > div strong span {
+        opacity: 0.5;
+    }
 
 .resumo_reacao{
       background: var(--reacao-bg) var(--resumo-div-bg);
@@ -102,4 +121,16 @@ body{
 .resumo_visual{
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
+}
+
+.resumo button{
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
