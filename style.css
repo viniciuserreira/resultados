@@ -8,7 +8,7 @@
 :root{
     font-size: 62.5%;
     --resultado-bg: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
-    --media-bg: linear-gradient(180deg, #4d21c9 0%, rgba (37, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    --media-bg:  linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
     --white: #fff;
     --light-blue: #cac9ff;
     --dark-navy: #303B59;
@@ -17,6 +17,7 @@
     --memoria-bg:#ffb21e;
     --verbal-bg: #00bb8f;
     --visual-bg: #1125d6;
+    --very-light
 
 }
 
@@ -38,7 +39,7 @@ body{
     margin-bottom: 2.5rem;
 }
 
-.resultado div{
+.resultado div {
     width: 14rem;
     height: 14rem;
     background: var(--media-bg);
@@ -49,6 +50,7 @@ body{
     justify-content: center;
     margin-bottom: 2.4rem;
 }
+
 .resultado div strong:nth-of-type(1){
     font-size: 5.6rem;
     font-weight: 800;
@@ -133,4 +135,9 @@ body{
     border-radius: 12.8rem;
     font-size: 1.8rem;
     font-weight: 700;
+}
+@media (min-width: 736px){
+    main{
+        display: flex;
+    }
 }
